@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EcoMarket</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+        }
+        .navbar-brand {
+            font-size: 2rem;
+            font-weight: bold;
+            color: #4CAF50;
+        }
+        .navbar {
+            background-color: #333;
+        }
+        .navbar a {
+            color: white !important;
+        }
+        .hero-section {
+            background-image: url('market.png');
+            background-size: cover;
+            color: white;
+            padding: 380px 0;
+            align-content: center;
+            text-align: center;
+        }
+        .hero-section h1 {
+            font-size: 2rem;
+        }
+        .product-card {
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            overflow: hidden;
+        }
+        .product-card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        .product-card .card-body {
+            text-align: center;
+        }
+        .footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">EcoMarket</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Productos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Carrito</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contacto</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<section class="hero-section">
+</section>
+
+<div class="container my-5">
+    <h2 class="text-center mb-4">Categorías de Productos</h2>
+    <div class="row">
+        <div class="col-md-4">
+            <div class="card product-card">
+                <img src="organicos.jfif" class="card-img-top" alt="Categoría 1">
+                <div class="card-body">
+                    <h5 class="card-title">Productos Orgánicos</h5>
+                    <p class="card-text">Frutas, verduras y más, cultivados de manera ecológica.</p>
+                    <a href="#" class="btn btn-success">Ver Productos</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card product-card">
+                <img src="hogar.webp" class="card-img-top" alt="Categoría 2">
+                <div class="card-body">
+                    <h5 class="card-title">Productos Ecológicos para el Hogar</h5>
+                    <p class="card-text">Artículos eco-friendly para tu hogar y oficina.</p>
+                    <a href="#" class="btn btn-success">Ver Productos</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card product-card">
+                <img src="cosmeticos.jfif" class="card-img-top" alt="Categoría 3">
+                <div class="card-body">
+                    <h5 class="card-title">Cosméticos Naturales</h5>
+                    <p class="card-text">Cuidado personal con ingredientes 100% naturales.</p>
+                    <a href="#" class="btn btn-success">Ver Productos</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<footer class="footer">
+    <p>&copy; 2024 EcoMarket | Todos los derechos reservados.</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
